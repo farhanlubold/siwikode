@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f6f9;
+}
+.content {
+  margin: 8%;
+  background-color: #fff;
+  padding: 4rem 1rem 4rem 1rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+.sign-text {
+  font-style: normal;
+  font-weight: 600 !important;
+}
+.btn-class {
+  border-color: #51c2d5;
+  color: #51c2d5;
+}
+
+.btn-class:hover {
+  background-color: #51c2d5;
+}

@@ -1,0 +1,65 @@
+
+.black {
+    color                     : black;
+}
+table {
+    box-shadow                : 1px 3px 5px rgba(0, 0, 0, 0.685);
+    border-radius             : 10px;
+}
+.btn {
+    box-shadow                : 1px 3px 5px rgba(0, 0, 0, 0.685);
+}
+.fa-star {
+    color                     : yellow;
+    text-shadow               : 1px 1px 2px rgba(0, 0, 0, 0.685);
+    font-size                 : small;
+}
+.fa-user {
+    color                     : green;
+    text-shadow               : 1px 1px 2px rgba(0, 0, 0, 0.685);
+    font-size                 : x-large;
+    border-style              : inset;
+    padding                   : 5px;
+}
+footer {
+    background-color          : white;
+}
+.shadow-drop-bottom {
+    -webkit-animation         : shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation                 : shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes shadow-drop-bottom {
+    0% {
+        -webkit-box-shadow    : 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow            : 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        -webkit-box-shadow    : 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+        box-shadow            : 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+}
+@keyframes shadow-drop-bottom {
+    0% {
+        -webkit-box-shadow    : 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow            : 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        -webkit-box-shadow    : 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+        box-shadow            : 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+}
+.foto{
+    background-image: url('/assets/image/foto.jpeg');
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.card-title{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
